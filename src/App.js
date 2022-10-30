@@ -16,13 +16,15 @@ function App() {
       </Avatar>
     </div>
 
-    <div className="p-d-flex p-jc-center">
+    <div className="twitter">
       <p><b style={{fontSize: 25, fontFamily: 'Arial'}}>Akamo Dolapo</b></p>
     </div>
 
+
+
     <div className="p-d-flex p-jc-center">
       <div className="p-d-flex p-flex-column" style={{width: 40 + "%"}}>
-      <a href="https://training.zuri.team/" style={{textDecoration: 'none'}}>
+      <a href="https://twitter.com/Dolly_tech" style={{textDecoration: 'none'}}>
       <Button className="p-p-3 p-m-2" label="Twitter" style={{width: 100 + "%", backgroundColor: 'gray', color: 'black', border: '1px solid #EAECF0'}}>
         <span className="p-px-3">
         </span>
@@ -67,10 +69,17 @@ function App() {
       </div>
     </div>
 
-    <div className="p-d-flex p-jc-center p-m-4">
-      <Image src="" alt="Image Text" style={{width: '10px', height: '10px'}}/>
-      <Image src="icon.png" alt="Image Text" />
+    <div className="icons">
+    <Image src="slack.png" alt="Image Text"/>
+     <Image src="icon.png" alt="Image Text"/>
     </div>
+
+    <div className="footer">
+      <div className="footer1">Zuri<span>.</span>Internship</div>
+      <div className="footer2">HNG Internship 9 Frontend Task</div>
+      <div className="footer3"><Image src="I4G.png" alt="Image Text"/></div>
+    </div>
+    
    </div>
 
   

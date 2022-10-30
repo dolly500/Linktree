@@ -4,3 +4,45 @@
         display: flex;
     }
 } */
+
+.twitter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: -50px;
+}
+
+.icons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+
+.footer{
+    justify-content: center;
+    display: flex;
+    gap: 48px;
+    margin-top: 50px;
+}
+.footer .footer1{
+    font-weight: bold;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer .footer1 span{
+    color: #E7332B;
+    font-size: 100%;
+}
+
+.footer .footer2{
+    color: #667085;
+    text-align: center;
+    font-size: 13.9px;
+    font-family: 'Inter';
+    font-style: normal;
+}
